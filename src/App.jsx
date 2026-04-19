@@ -162,7 +162,7 @@ export default function App() {
               <div style={{fontSize:36,fontWeight:"bold",color:"#fff"}}>¥980<span style={{fontSize:14,color:C.muted}}>/月</span></div>
               <div style={{fontSize:12,color:C.muted,marginTop:4}}>いつでもキャンセル可能</div>
             </div>
-            <button style={{width:"100%",padding:"14px 0",borderRadius:12,background:"linear-gradient(135deg, #7c3aed, #a78bfa)",border:"none",color:"#fff",fontSize:15,fontWeight:"bold",cursor:"pointer",marginBottom:10}}>
+            <button onClick={() => window.open('https://buy.stripe.com/bJe14o3L9bGi7222Q60Ba05', '_blank')} style={{width:"100%",padding:"14px 0",borderRadius:12,background:"linear-gradient(135deg, #7c3aed, #a78bfa)",border:"none",color:"#fff",fontSize:15,fontWeight:"bold",cursor:"pointer",marginBottom:10}}>
               今すぐアップグレード
             </button>
             <button onClick={() => setShowPaywall(false)} style={{background:"none",border:"none",color:C.muted,fontSize:13,cursor:"pointer"}}>あとで</button>
